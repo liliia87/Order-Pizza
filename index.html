@@ -16,11 +16,11 @@
         <h2>Choose your pizza: </h2>
         <label for="pizza-type">What kind of pizza do you prefer?</label>
         <select class="form-control" id="type-pizza">
-          <option><p>New York-Style Pizza ~ 6.50$</p></option>
-          <option><p>Greek Pizza ~ 7.50$</p></option>
-          <option><p>Detroit Pizza ~ 6.50$</p></option>
-          <option><p>Sicilian Pizza ~ 8.50$</p></option>
-          <option><p>Californian Pizza ~ 6.50$</p></option>
+          <option><p>New York-Style Pizza ~ $6.50</p></option>
+          <option><p>Greek Pizza ~ $7.50</p></option>
+          <option><p>Detroit Pizza ~ $6.50</p></option>
+          <option><p>Sicilian Pizza ~ $8.50</p></option>
+          <option><p>Californian Pizza ~ $6.50</p></option>
         </select>
         <hr>
         <br>
@@ -31,12 +31,22 @@
           <option><p>15 inch ~ Large</p></option>
           <option><p>18 inch ~ Fiesta</p></option>
         </select>
+        <hr>
+        <fieldset>
+          <legend>Choose the toppings: </legend>
+          <div>
+            <input type = "checkbox" id="pineapple" name="toppings">
+            <label for = 'pineapple'>Pineapple ~ $1</label>
+            <input type="checkbox" id="anchovies" name="toppings">
+            <label for = 'anchovies'>Anchovies ~ $0.50</label>
+          </div>
+        </fieldset>
         <br>
         <div class="description">
         
         </div>
         <button type="button" id="set-choose" class="btn">Add to order</button>
-        <button type="button" id="placeTheOrder" class = 'btn'>Place the</button>
+        <button type="button" id="placeTheOrder" class = 'btn'>Place the order</button>
       </div>
       <div id = "row-bottom">
 
