@@ -8,7 +8,7 @@
 
 #### Authored by: _**Liliia Kryvelova**_
 
-https://github.com/liliia87/project3.git
+https://github.com/liliia87/Order-Pizza.git
 
 #### _Create a website for a pizza order. User should have a chance to add one or more toppings, a size of pizza and see the final cost._
 
