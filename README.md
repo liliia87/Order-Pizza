@@ -1,10 +1,16 @@
+
+
+
+
+
+
 # _Pizza Parlor_
 
 #### Authored by: _**Liliia Kryvelova**_
 
 https://github.com/liliia87/project3.git
 
-#### _An application that takes the number from the user and returnsa range of numbers from 0 to the user inputted number with the certain subtitutions._
+#### _Create a website for a pizza order. User should have a chance to add one or more toppings, a size of pizza and see the final cost._
 
 ## Technologies Used
 *_Html_
@@ -13,9 +19,9 @@ https://github.com/liliia87/project3.git
 
 ## Description
 
-_The web applications has a user input, where user can insert the number for the length of array;_
-_Next step is "Click" on the button;_
-_The web application will return a range of numbers from 0 to the user's inputted number with the replaced numbers._
+_Allow the user to choose toppings and size for the pizza they'd like to order;_
+_Create a pizza object constructor with properties for toppings and size;_
+_Create a prototype method for the cost of a pizza depending on the selections chosen. Use your own formula for this._
 
 ## Setup/Installation Requirements
 
