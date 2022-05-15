@@ -1,9 +1,6 @@
 
 
 
-
-
-
 # _Pizza Parlor_
 
 #### Authored by: _**Liliia Kryvelova**_
