@@ -1,3 +1,32 @@
+Describe: .calculateCost()
+Test:"It should return a calculated cost of pizza";
+Code:
+type-pizza = "New York-Style Pizza";
+Pizza.prototype.calculateCost();
+Expexted output: 6.50;
+
+Describe: .calculateCost()
+Test:"It should return a calculated cost of pizza with choozen size";
+Code:
+type-pizza = "New York-Style Pizza";
+size-pizza = "Small";
+Pizza.prototype.calculateCost();
+Expexted output: currentCost + 0;
+
+Describe: .calculateCost()
+Test:"It should return a calculated cost of pizza with choozen topping";
+Code:
+type-pizza = "New York-Style Pizza";
+typeOfTopping = "pineapple";
+Pizza.prototype.calculateCost();
+Expexted output: 6.50 + 1;
+
+Describe: .toppingToString();
+Test: "It should return choozen topping in String type";
+Code:
+
+
+
 
 
 
