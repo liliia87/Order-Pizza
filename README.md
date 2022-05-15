@@ -24,6 +24,10 @@ Expexted output: 6.50 + 1;
 Describe: .toppingToString();
 Test: "It should return choozen topping in String type";
 Code:
+choosenTopping = ['pineapple', 'anchovies'];
+Expexted output:
+pineapple anchovies;
+
 
 
 
