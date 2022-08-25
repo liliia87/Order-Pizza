@@ -1,46 +1,10 @@
-Describe: .calculateCost()
-Test:"It should return a calculated cost of pizza";
-Code:
-type-pizza = "New York-Style Pizza";
-Pizza.prototype.calculateCost();
-Expexted output: 6.50;
-
-Describe: .calculateCost()
-Test:"It should return a calculated cost of pizza with choozen size";
-Code:
-type-pizza = "New York-Style Pizza";
-size-pizza = "Small";
-Pizza.prototype.calculateCost();
-Expexted output: currentCost + 0;
-
-Describe: .calculateCost()
-Test:"It should return a calculated cost of pizza with choozen topping";
-Code:
-type-pizza = "New York-Style Pizza";
-typeOfTopping = "pineapple";
-Pizza.prototype.calculateCost();
-Expexted output: 6.50 + 1;
-
-Describe: .toppingToString();
-Test: "It should return choozen topping in String type";
-Code:
-choosenTopping = ['pineapple', 'anchovies'];
-Expexted output:
-pineapple anchovies;
-
-
-
-
-
-
-
-# _{Pizza Parlor}_
+# _Pizza Parlor_
 
 #### Authored by: _**Liliia Kryvelova**_
 
 https://github.com/liliia87/Order-Pizza.git
 
-#### _{Create a website for a pizza order. User should have a chance to add one or more toppings, a size of pizza and see the final cost.}_
+#### _Create a website for a pizza order. User should have a chance to add one or more toppings, a size of pizza and see the final cost._
 
 ## Technologies Used
 * _Html_
@@ -65,10 +29,40 @@ https://github.com/liliia87/Order-Pizza.git
 * _Run the index.html (double click on it and the page should appear in web browser)._
 * _If you are willing to debug or change something in the project, the best way is to open it through the VisuaStudio._
 
+## Test cases
+Describe: .calculateCost()  
+Test:"It should return a calculated cost of pizza";  
+Code:  
+`type-pizza = "New York-Style Pizza";`  
+`Pizza.prototype.calculateCost();`  
+Expexted output: 6.50;  
+
+Describe: .calculateCost()
+Test:"It should return a calculated cost of pizza with choozen size";  
+Code:  
+`type-pizza = "New York-Style Pizza";`  
+`size-pizza = "Small";`  
+`Pizza.prototype.calculateCost();`  
+Expexted output: currentCost + 0;  
+
+Describe: .calculateCost()  
+Test:"It should return a calculated cost of pizza with choozen topping";  
+Code:  
+`type-pizza = "New York-Style Pizza";`  
+`typeOfTopping = "pineapple";`  
+`Pizza.prototype.calculateCost();`  
+Expexted output: 6.50 + 1;
+
+Describe: .toppingToString();  
+Test: "It should return choozen topping in String type";  
+Code:  
+`choosenTopping = ['pineapple', 'anchovies'];`  
+Expexted output:  
+pineapple anchovies;
 
 ## Known Bugs
 
-* _For now, there aren't known bugs_
+* _For now, there are no known bugs_
 
 ## License
 
